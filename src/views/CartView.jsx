@@ -31,7 +31,7 @@ function CartView() {
                     className="remove-button"
                     onClick={() => setCart((prevCart) => prevCart.delete(key))}
                   >
-                    Remove
+                    <i class="fa-solid fa-trash"></i>
                   </button>
                 </div>
               </div>
